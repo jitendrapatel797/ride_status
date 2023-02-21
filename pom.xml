@@ -31,13 +31,15 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
 						<username>jitendral797</username>
+						<password>Dajisan@797</password>
 						<environment>Sendbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
 						<applicationName>ride_status</applicationName>
-						<password>Dajisan@797</password>
 						<muleVersion>4.4.0</muleVersion>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
