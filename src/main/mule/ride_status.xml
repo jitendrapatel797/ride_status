@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="ride_statusFlow" doc:id="ec7c3605-4daa-41b8-9547-34609dcf3b3e" >
 		<http:listener doc:name="Listener /status1" doc:id="7fba24e9-de23-4be3-8a45-2b88479860c3" config-ref="HTTP_Listener_config" path="/status1"/>
-		<set-payload value='#[status: "check2 "]' doc:name="Set Payload" doc:id="a97fe15e-5dc0-40d1-9e1c-c4902b7f5fb4" />
+		<set-payload value='#[status: "check12 "]' doc:name="Set Payload" doc:id="a97fe15e-5dc0-40d1-9e1c-c4902b7f5fb4" />
 		<logger level="INFO" doc:name="Logger" doc:id="8f013c15-68cd-488e-9791-c87506c61080" message="#[payload]"/>
 	</flow>
 </mule>
