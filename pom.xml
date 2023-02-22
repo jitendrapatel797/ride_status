@@ -34,7 +34,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<username>jitendral797</username>
 						<password>Dajisan@797</password>
-						<environment>Sendbox</environment>
+						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
 						<applicationName>ride_status</applicationName>
