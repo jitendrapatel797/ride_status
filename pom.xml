@@ -31,8 +31,8 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<username>jitendral797</username>
+						<uri>https://anypoint.mulesoft.com</uri>;
+						<username>jpatel101</username>
 						<password>Dajisan@797</password>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
